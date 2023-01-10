@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+table tbody tr:nth-of-type(even) {
+  background-color: #fff2e2;
+}
+.dx-treelist {
+  max-width: 75%;
+  max-height: 600px;
+  margin-bottom: 150px;
+}

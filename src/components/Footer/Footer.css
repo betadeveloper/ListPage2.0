@@ -1,0 +1,29 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+  background-color: rgb(19, 19, 19);
+  color: #efefef;
+  width: 100%;
+  z-index: 999;
+  margin: 0;
+}
+
+.footer ul {
+  list-style: none;
+  padding-left: 0;
+  text-align: center;
+}
+
+.footer a img {
+  margin-left: 1rem;
+  width: 2rem;
+}
+
+.footerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
